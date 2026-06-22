@@ -25,6 +25,10 @@ body {
   font-family: var(--font-body);
 }
 
+#title-block-header {
+  display: none;
+}
+
 .page-layout-full .page-columns,
 .column-page { max-width: 900px; margin: 0 auto; }
 
@@ -60,11 +64,22 @@ body {
   box-shadow: var(--shadow-md);
 }
 
+.hero-content .hero-name {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+  letter-spacing: -0.02em;
+  color: var(--color-primary);
+  line-height: 1.2;
+}
+
 .hero-content h1 {
   font-size: 2.2rem;
   font-weight: 800;
   margin-bottom: 0.25rem;
   letter-spacing: -0.02em;
+  border: none;
+  padding: 0;
 }
 
 .hero-content .role {
@@ -223,6 +238,12 @@ body {
 }
 .pub-card:hover { box-shadow: var(--shadow-md); }
 
+.pub-card .pub-title,
+.pub-card .pub-authors,
+.pub-card .pub-journal {
+  margin-bottom: 0.25rem;
+}
+
 .pub-card .pub-title {
   font-size: 1rem;
   font-weight: 600;
@@ -316,6 +337,15 @@ body {
 .project-card .project-status.wip    { background: #FEF3C7; color: #92400E; }
 .project-card .project-status.future { background: #EDE9FE; color: #5B21B6; }
 
+.project-card-featured {
+  border-color: var(--color-secondary);
+  background: linear-gradient(135deg, #f8fafc 0%, #eef4fb 100%);
+}
+
+.project-card-featured .project-title {
+  color: var(--color-secondary);
+}
+
 /* ── Contacto ──────────────────────────────────────────────── */
 .contact-grid {
   display: grid;
@@ -363,6 +393,10 @@ body {
   .pub-card     { background: #2E3440; border-color: #3B4252; }
   .about-card   { background: #2E3440; border-color: #3B4252; }
   .project-card { background: #2E3440; border-color: #3B4252; }
+  .project-card-featured {
+    background: linear-gradient(135deg, #2E3440 0%, #3B5068 100%);
+    border-color: #5E81AC;
+  }
   .contact-card { background: #2E3440; border-color: #3B4252; color: #D8DEE9; }
   .contact-card:hover { background: #3B4252; }
 }

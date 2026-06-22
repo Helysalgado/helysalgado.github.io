@@ -4,87 +4,59 @@ page-layout: full
 toc: false
 ---
 
-<!-- ══════════════════════════════════════════════════
-     HERO — Perfil personal
-     ══════════════════════════════════════════════════ -->
+```{=html}
+<!-- HERO -->
+<div class="hero-section">
+  <div class="hero-photo">
+    <div class="avatar-placeholder">HS</div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-name">Heladia Salgado</div>
+    <div class="role">Técnica Académica Titular C · Lic. en Informática</div>
+    <div class="institution">Centro de Ciencias Genómicas, UNAM · Cuernavaca, México · en la UNAM desde 1994</div>
+    <div class="research-tags">
+      <span class="tag">Regulación transcripcional</span>
+      <span class="tag">Bioinformática</span>
+      <span class="tag">Desarrollo de software científico</span>
+      <span class="tag">RegulonDB</span>
+      <span class="tag">IA en ciencia</span>
+    </div>
+    <div class="hero-links">
+      <a href="#docencia" class="btn-outline">🎓 Docencia</a>
+      <a href="#publicaciones" class="btn-outline">📄 Publicaciones</a>
+      <a href="#proyectos" class="btn-outline">🚀 Proyectos</a>
+      <a href="assets/docs/Salgado_Heladia_cv_2025.pdf" class="btn-outline" target="_blank" rel="noopener">📎 CV</a>
+      <a href="mailto:heladia@ccg.unam.mx" class="btn-primary">✉️ Contacto</a>
+      <a href="https://github.com/Helysalgado" class="btn-outline" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</div>
+```
 
-::: {.hero-section}
-
-::: {.hero-photo}
-<div class="avatar-placeholder">HS</div>
-<!-- Cuando tengas foto, reemplaza la línea anterior con:
-     ![Heladia Salgado](assets/images/foto.jpg){.avatar}  -->
-:::
-
-::: {.hero-content}
-
-# Heladia Salgado
-
-::: {.role}
-Técnica Académica Titular C · Lic. en Informática
-:::
-
-::: {.institution}
-Centro de Ciencias Genómicas, UNAM · Cuernavaca, México · en la UNAM desde 1994
-:::
-
-::: {.research-tags}
-[Regulación transcripcional]{.tag}
-[Bioinformática]{.tag}
-[Desarrollo de software científico]{.tag}
-[RegulonDB]{.tag}
-[IA en ciencia]{.tag}
-:::
-
-::: {.hero-links}
-<a href="#publicaciones" class="btn-outline">📄 Publicaciones</a>
-<a href="#proyectos" class="btn-outline">🚀 Proyectos</a>
-<a href="assets/docs/Salgado_Heladia_cv_2025.pdf" class="btn-outline" target="_blank">📎 CV</a>
-<a href="mailto:heladia@ccg.unam.mx" class="btn-primary">✉️ Contacto</a>
-<a href="https://github.com/Helysalgado" class="btn-outline" target="_blank">GitHub</a>
-:::
-
-:::
-
-:::
-
-<!-- ══════════════════════════════════════════════════
-     SOBRE MÍ
-     ══════════════════════════════════════════════════ -->
-
-::: {.about-section}
-
-## Sobre mí {.section-title}
-
-Técnica académica titular C en el [Centro de Ciencias Genómicas de la UNAM](https://www.ccg.unam.mx), licenciada en informática y en la universidad desde 1994. Modelo la regulación transcripcional bacteriana y coordino el desarrollo de software de [RegulonDB](http://regulondb.ccg.unam.mx/), articulando biología, computación e inteligencia artificial.
-
-::: {.about-grid}
-
-::: {.about-card}
-::: {.about-icon}🧬:::
-::: {.about-title}RegulonDB:::
-::: {.about-desc}
-Coordinación del desarrollo de software del equipo e integración entre el modelo biológico y su implementación tecnológica.
-:::
-:::
-
-::: {.about-card}
-::: {.about-icon}🤖:::
-::: {.about-title}IA y conocimiento curado:::
-::: {.about-desc}
-Asistentes conversacionales, LLMs en pipelines bioinformáticos y despliegue estructurado del conocimiento científico.
-:::
-:::
-
-::: {.about-card}
-::: {.about-icon}📚:::
-::: {.about-title}Docencia:::
-::: {.about-desc}
-Bioinformática, Python y estadística en la Licenciatura en Ciencias Genómicas, posgrado y formación en software científico.
-:::
-:::
-
-:::
+```{=html}
+<!-- SOBRE MÍ -->
+<section class="about-section">
+  <h2 class="section-title">Sobre mí</h2>
+  <p>Técnica académica titular C en el <a href="https://www.ccg.unam.mx">Centro de Ciencias Genómicas de la UNAM</a>, licenciada en informática y en la universidad desde 1994. Modelo la regulación transcripcional bacteriana y coordino el desarrollo de software de <a href="http://regulondb.ccg.unam.mx/">RegulonDB</a>, articulando biología, computación e inteligencia artificial.</p>
+  <div class="about-grid">
+    <div class="about-card">
+      <div class="about-icon">🧬</div>
+      <div class="about-title">RegulonDB</div>
+      <div class="about-desc">Coordinación del desarrollo de software del equipo e integración entre el modelo biológico y su implementación tecnológica.</div>
+    </div>
+    <div class="about-card">
+      <div class="about-icon">🤖</div>
+      <div class="about-title">IA y conocimiento curado</div>
+      <div class="about-desc">Asistentes conversacionales, LLMs en pipelines bioinformáticos y despliegue estructurado del conocimiento científico.</div>
+    </div>
+    <div class="about-card">
+      <div class="about-icon">📚</div>
+      <div class="about-title">Docencia</div>
+      <div class="about-desc">Bioinformática, Python y estadística en la Licenciatura en Ciencias Genómicas, posgrado y formación en software científico.</div>
+    </div>
+  </div>
+</section>
+```
 
 ::: {.callout-note collapse="true"}
 ## Trayectoria y formación
@@ -104,215 +76,156 @@ Bioinformática, Python y estadística en la Licenciatura en Ciencias Genómicas
 - Investigadora Nacional Nivel 1, Sistema Nacional de Investigadores (2005–2023)
 :::
 
-:::
-
 ---
 
-<!-- ══════════════════════════════════════════════════
-     PUBLICACIONES
-     ══════════════════════════════════════════════════ -->
+```{=html}
+<!-- DOCENCIA -->
+<section id="docencia">
+  <h2 class="section-title">Docencia</h2>
+  <div class="projects-grid">
+    <a href="https://helysalgado.github.io/prompting-cientifico/" class="project-card project-card-featured" target="_blank" rel="noopener">
+      <div class="project-icon">🔬</div>
+      <div class="project-title">Prompting Científico con IA</div>
+      <div class="project-desc">Curso sobre epistemología del prompting, arquitectura de LLMs y diseño de prompts para investigación científica. Incluye protocolo MalT y rúbricas de evaluación.</div>
+      <span class="project-status live">Sitio activo</span>
+    </a>
+    <a href="#" class="project-card">
+      <div class="project-icon">🛠️</div>
+      <div class="project-title">Desarrollo Científico Aumentado por IA</div>
+      <div class="project-desc">Curso de 10 sesiones sobre Context Engineering, Scientific Spec-Driven Development y pipelines computacionales reproducibles con IA.</div>
+      <span class="project-status wip">En construcción</span>
+    </a>
+  </div>
+</section>
+```
+
+---
 
 ## Publicaciones {#publicaciones .section-title}
 
-::: {.pub-list}
-
-::: {.pub-card}
-::: {.pub-title}
-RegulonDB v12.0: A Comprehensive Resource of Transcriptional Regulation in *E. coli* K-12
-:::
-::: {.pub-authors}
-**Salgado H.**, Gama-Castro S., Lara P., Mejía-Almonte C., *et al.*
-:::
-::: {.pub-journal}
-Nucleic Acids Research, 2023 · Vol. 51 (D1): D146–D154
-:::
-::: {.pub-links}
-<a href="https://doi.org/10.1093/nar/gkad1072" class="pub-badge doi" target="_blank">DOI</a>
-<a href="https://pubmed.ncbi.nlm.nih.gov/37986210/" class="pub-badge pdf" target="_blank">PubMed</a>
-:::
-:::
-
-::: {.pub-card}
-::: {.pub-title}
-RegulonDB 11.0: Comprehensive High-Throughput Datasets on Transcriptional Regulation in *Escherichia coli* K-12
-:::
-::: {.pub-authors}
-Tierrafría V.H., Rioualen C., **Salgado H.**, Lara P., Gama-Castro S., *et al.*
-:::
-::: {.pub-journal}
-Microbial Genomics, 2022 · 8(5): mgen000833
-:::
-::: {.pub-links}
-<a href="https://doi.org/10.1099/mgen.0.000833" class="pub-badge doi" target="_blank">DOI</a>
-:::
-:::
-
-::: {.pub-card}
-::: {.pub-title}
-RegulonDB v10.5: Tackling Challenges to Unify Classic and High-Throughput Knowledge of Gene Regulation in *E. coli* K-12
-:::
-::: {.pub-authors}
-Santos-Zavaleta A., **Salgado H.**, Gama-Castro S., *et al.*
-:::
-::: {.pub-journal}
-Nucleic Acids Research, 2019 · Vol. 47 (D1): D212–D220
-:::
-::: {.pub-links}
-<a href="https://doi.org/10.1093/nar/gky1077" class="pub-badge doi" target="_blank">DOI</a>
-:::
-:::
-
-::: {.pub-card}
-::: {.pub-title}
-Operons in *Escherichia coli*: Genomic Analyses and Predictions
-:::
-::: {.pub-authors}
-**Salgado H.**, Moreno-Hagelsieb G., Smith T.F., Collado-Vides J.
-:::
-::: {.pub-journal}
-PNAS, 2000 · Vol. 97(12): 6652–6657 · 270 citas
-:::
-::: {.pub-links}
-<a href="https://doi.org/10.1073/pnas.97.12.6652" class="pub-badge doi" target="_blank">DOI</a>
-:::
-:::
-
-:::
-
 ::: {.callout-note collapse="true"}
-## Ver publicaciones completas en Google Scholar
+## Publicaciones destacadas
 
-Para la lista completa de publicaciones visita mi perfil en [Google Scholar](https://scholar.google.com/citations?user=ezI9LUUAAAAJ&hl=es) o [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Salgado+H%5BAuthor%5D+CCG+UNAM).
+```{=html}
+<div class="pub-list">
+  <div class="pub-card">
+    <div class="pub-title">RegulonDB v12.0: A Comprehensive Resource of Transcriptional Regulation in <em>E. coli</em> K-12</div>
+    <div class="pub-authors"><strong>Salgado H.</strong>, Gama-Castro S., Lara P., Mejía-Almonte C., <em>et al.</em></div>
+    <div class="pub-journal">Nucleic Acids Research, 2023 · Vol. 51 (D1): D146–D154</div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1093/nar/gkad1072" class="pub-badge doi" target="_blank" rel="noopener">DOI</a>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/37986210/" class="pub-badge pdf" target="_blank" rel="noopener">PubMed</a>
+    </div>
+  </div>
+  <div class="pub-card">
+    <div class="pub-title">RegulonDB 11.0: Comprehensive High-Throughput Datasets on Transcriptional Regulation in <em>Escherichia coli</em> K-12</div>
+    <div class="pub-authors">Tierrafría V.H., Rioualen C., <strong>Salgado H.</strong>, Lara P., Gama-Castro S., <em>et al.</em></div>
+    <div class="pub-journal">Microbial Genomics, 2022 · 8(5): mgen000833</div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1099/mgen.0.000833" class="pub-badge doi" target="_blank" rel="noopener">DOI</a>
+    </div>
+  </div>
+  <div class="pub-card">
+    <div class="pub-title">RegulonDB v10.5: Tackling Challenges to Unify Classic and High-Throughput Knowledge of Gene Regulation in <em>E. coli</em> K-12</div>
+    <div class="pub-authors">Santos-Zavaleta A., <strong>Salgado H.</strong>, Gama-Castro S., <em>et al.</em></div>
+    <div class="pub-journal">Nucleic Acids Research, 2019 · Vol. 47 (D1): D212–D220</div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1093/nar/gky1077" class="pub-badge doi" target="_blank" rel="noopener">DOI</a>
+    </div>
+  </div>
+  <div class="pub-card">
+    <div class="pub-title">Operons in <em>Escherichia coli</em>: Genomic Analyses and Predictions</div>
+    <div class="pub-authors"><strong>Salgado H.</strong>, Moreno-Hagelsieb G., Smith T.F., Collado-Vides J.</div>
+    <div class="pub-journal">PNAS, 2000 · Vol. 97(12): 6652–6657 · 270 citas</div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1073/pnas.97.12.6652" class="pub-badge doi" target="_blank" rel="noopener">DOI</a>
+    </div>
+  </div>
+</div>
+```
+
+Lista completa en [Google Scholar](https://scholar.google.com/citations?user=ezI9LUUAAAAJ&hl=es) o [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Salgado+H%5BAuthor%5D+CCG+UNAM).
 :::
 
 ---
 
-<!-- ══════════════════════════════════════════════════
-     PROYECTOS Y CURSOS
-     ══════════════════════════════════════════════════ -->
-
-## Proyectos y Cursos {#proyectos .section-title}
-
-::: {.projects-grid}
-
-<a href="https://helysalgado.github.io/prompting-cientifico/" class="project-card" target="_blank">
-::: {.project-icon}
-🔬
-:::
-::: {.project-title}
-Prompting Científico con IA
-:::
-::: {.project-desc}
-Curso sobre epistemología del prompting, arquitectura de LLMs y diseño de prompts para investigación científica. Incluye protocolo MalT y rúbricas de evaluación.
-:::
-[Sitio activo]{.project-status .live}
-</a>
-
-<a href="#" class="project-card">
-::: {.project-icon}
-🛠️
-:::
-::: {.project-title}
-Desarrollo Científico Aumentado por IA
-:::
-::: {.project-desc}
-Curso de 10 sesiones sobre Context Engineering, Scientific Spec-Driven Development y pipelines computacionales reproducibles con IA.
-:::
-[En construcción]{.project-status .wip}
-</a>
-
-<a href="http://regulondb.ccg.unam.mx/" class="project-card" target="_blank">
-::: {.project-icon}
-🧬
-:::
-::: {.project-title}
-RegulonDB
-:::
-::: {.project-desc}
-Base de datos de referencia mundial para la regulación transcripcional en *E. coli* K-12. Coordino el desarrollo de software del equipo y la integración entre el modelo biológico y su implementación tecnológica.
-:::
-[Activo]{.project-status .live}
-</a>
-
-<a href="#" class="project-card">
-::: {.project-icon}
-🤖
-:::
-::: {.project-title}
-Asistentes conversacionales con IA
-:::
-::: {.project-desc}
-Proyecto PAPIIT IF202226 (2026–2027): plataforma de asistentes basados en IA generativa para el despliegue estructurado de conocimiento científico en investigación y formación académica. Responsable del proyecto.
-:::
-[Vigente]{.project-status .live}
-</a>
-
-:::
+```{=html}
+<!-- PROYECTOS -->
+<section id="proyectos">
+  <h2 class="section-title">Proyectos</h2>
+  <div class="projects-grid">
+    <a href="http://regulondb.ccg.unam.mx/" class="project-card" target="_blank" rel="noopener">
+      <div class="project-icon">🧬</div>
+      <div class="project-title">RegulonDB</div>
+      <div class="project-desc">Base de datos de referencia mundial para la regulación transcripcional en <em>E. coli</em> K-12. Coordino el desarrollo de software del equipo y la integración entre el modelo biológico y su implementación tecnológica.</div>
+      <span class="project-status live">Activo</span>
+    </a>
+    <a href="#" class="project-card">
+      <div class="project-icon">🤖</div>
+      <div class="project-title">Asistentes conversacionales con IA</div>
+      <div class="project-desc">Proyecto PAPIIT IF202226 (2026–2027): plataforma de asistentes basados en IA generativa para el despliegue estructurado de conocimiento científico en investigación y formación académica. Responsable del proyecto.</div>
+      <span class="project-status live">Vigente</span>
+    </a>
+  </div>
+</section>
+```
 
 ---
 
-<!-- ══════════════════════════════════════════════════
-     CONTACTO
-     ══════════════════════════════════════════════════ -->
-
-## Contacto {#contacto .section-title}
-
-::: {.contact-grid}
-
-<a href="mailto:heladia@ccg.unam.mx" class="contact-card">
-::: {.contact-icon}✉️:::
-<div>
-::: {.contact-label}Email:::
-::: {.contact-value}heladia@ccg.unam.mx:::
-</div>
-</a>
-
-<a href="https://github.com/Helysalgado" class="contact-card" target="_blank">
-::: {.contact-icon}🐙:::
-<div>
-::: {.contact-label}GitHub:::
-::: {.contact-value}@Helysalgado:::
-</div>
-</a>
-
-<a href="https://www.ccg.unam.mx/heladia-salgado-osorio/" class="contact-card" target="_blank">
-::: {.contact-icon}🏛️:::
-<div>
-::: {.contact-label}Institución:::
-::: {.contact-value}CCG · UNAM:::
-</div>
-</a>
-
-<a href="https://orcid.org/0000-0002-3166-5801" class="contact-card" target="_blank">
-::: {.contact-icon}🆔:::
-<div>
-::: {.contact-label}ORCID:::
-::: {.contact-value}0000-0002-3166-5801:::
-</div>
-</a>
-
-<a href="https://www.linkedin.com/in/heladia-salgado-bb122954/" class="contact-card" target="_blank">
-::: {.contact-icon}💼:::
-<div>
-::: {.contact-label}LinkedIn:::
-::: {.contact-value}Heladia Salgado:::
-</div>
-</a>
-
-<a href="https://scholar.google.com/citations?user=ezI9LUUAAAAJ&hl=es" class="contact-card" target="_blank">
-::: {.contact-icon}🎓:::
-<div>
-::: {.contact-label}Google Scholar:::
-::: {.contact-value}4,047+ citas · h-index 23:::
-</div>
-</a>
-
-<a href="assets/docs/Salgado_Heladia_cv_2025.pdf" class="contact-card" target="_blank">
-::: {.contact-icon}📎:::
-<div>
-::: {.contact-label}Currículum:::
-::: {.contact-value}CV UNAM 2025 · PDF:::
-</div>
-</a>
-
-:::
+```{=html}
+<!-- CONTACTO -->
+<section id="contacto">
+  <h2 class="section-title">Contacto</h2>
+  <div class="contact-grid">
+    <a href="mailto:heladia@ccg.unam.mx" class="contact-card">
+      <span class="contact-icon">✉️</span>
+      <div>
+        <div class="contact-label">Email</div>
+        <div class="contact-value">heladia@ccg.unam.mx</div>
+      </div>
+    </a>
+    <a href="https://github.com/Helysalgado" class="contact-card" target="_blank" rel="noopener">
+      <span class="contact-icon">🐙</span>
+      <div>
+        <div class="contact-label">GitHub</div>
+        <div class="contact-value">Helysalgado</div>
+      </div>
+    </a>
+    <a href="https://www.ccg.unam.mx/heladia-salgado-osorio/" class="contact-card" target="_blank" rel="noopener">
+      <span class="contact-icon">🏛️</span>
+      <div>
+        <div class="contact-label">Institución</div>
+        <div class="contact-value">CCG · UNAM</div>
+      </div>
+    </a>
+    <a href="https://orcid.org/0000-0002-3166-5801" class="contact-card" target="_blank" rel="noopener">
+      <span class="contact-icon">🆔</span>
+      <div>
+        <div class="contact-label">ORCID</div>
+        <div class="contact-value">0000-0002-3166-5801</div>
+      </div>
+    </a>
+    <a href="https://www.linkedin.com/in/heladia-salgado-bb122954/" class="contact-card" target="_blank" rel="noopener">
+      <span class="contact-icon">💼</span>
+      <div>
+        <div class="contact-label">LinkedIn</div>
+        <div class="contact-value">Heladia Salgado</div>
+      </div>
+    </a>
+    <a href="https://scholar.google.com/citations?user=ezI9LUUAAAAJ&amp;hl=es" class="contact-card" target="_blank" rel="noopener">
+      <span class="contact-icon">🎓</span>
+      <div>
+        <div class="contact-label">Google Scholar</div>
+        <div class="contact-value">4,047+ citas · h-index 23</div>
+      </div>
+    </a>
+    <a href="assets/docs/Salgado_Heladia_cv_2025.pdf" class="contact-card" target="_blank" rel="noopener">
+      <span class="contact-icon">📎</span>
+      <div>
+        <div class="contact-label">Currículum</div>
+        <div class="contact-value">CV UNAM 2025 · PDF</div>
+      </div>
+    </a>
+  </div>
+</section>
+```
