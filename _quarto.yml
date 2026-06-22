@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Heladia Salgado"
+  site-url: "https://helysalgado.github.io"
+  repo-url: "https://github.com/Helysalgado/helysalgado.github.io"
+  description: "Técnica Académica Titular C · Centro de Ciencias Genómicas, UNAM"
+  favicon: assets/images/favicon.ico
+
+  navbar:
+    background: light
+    foreground: dark
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Publicaciones"
+        href: "index.qmd#publicaciones"
+      - text: "Proyectos"
+        href: "index.qmd#proyectos"
+      - text: "Contacto"
+        href: "index.qmd#contacto"
+    right:
+      - icon: github
+        href: https://github.com/Helysalgado
+        aria-label: GitHub
+      - icon: envelope
+        href: "mailto:heladia@ccg.unam.mx"
+        aria-label: Email
+
+  page-footer:
+    background: light
+    left: "© 2026 Heladia Salgado · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    right: "[Centro de Ciencias Genómicas, UNAM](https://www.ccg.unam.mx)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/scss/custom-light.scss]
+      dark: [darkly, assets/scss/custom-dark.scss]
+    css: assets/css/styles.css
+    toc: false
+    number-sections: false
+    code-copy: true
+    lang: es
+    smooth-scroll: true
+    grid:
+      sidebar-width: 0px
+      body-width: 900px
+      margin-width: 0px
