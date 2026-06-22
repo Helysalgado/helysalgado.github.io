@@ -52,7 +52,7 @@ toc: false
     <a href="#docencia" class="about-card about-card-link">
       <div class="about-icon">📚</div>
       <div class="about-title">Docencia</div>
-      <div class="about-desc">Bioinformática, Python, ingeniería de prompting y estadística en la LCG, posgrado y formación en software científico.</div>
+      <div class="about-desc">Introducción a la Bioinformática (Unix) y desarrollo de software con Python y buenas prácticas en la LCG-UNAM.</div>
     </a>
   </div>
 </section>
@@ -82,7 +82,20 @@ toc: false
 <!-- DOCENCIA -->
 <section id="docencia">
   <h2 class="section-title">Docencia</h2>
+  <p class="docencia-intro">En la <strong>Licenciatura en Ciencias Genómicas (LCG-UNAM)</strong> imparto cursos de base computacional para la bioinformática. También desarrollo materiales sobre ingeniería de prompting e IA aplicada a la ciencia.</p>
   <div class="projects-grid">
+    <div class="project-card project-card-static">
+      <div class="project-icon">🐧</div>
+      <div class="project-title">Introducción a la Bioinformática (Unix)</div>
+      <div class="project-desc">LCG-UNAM · línea de comandos, entorno Unix y fundamentos computacionales para el análisis de datos biológicos.</div>
+      <span class="project-status live">LCG</span>
+    </div>
+    <div class="project-card project-card-static">
+      <div class="project-icon">🐍</div>
+      <div class="project-title">Desarrollo de software con Python</div>
+      <div class="project-desc">LCG-UNAM · programación en Python, buenas prácticas de desarrollo y software científico reproducible.</div>
+      <span class="project-status live">LCG</span>
+    </div>
     <a href="https://helysalgado.github.io/prompting-cientifico/" class="project-card project-card-featured" target="_blank" rel="noopener">
       <div class="project-icon">🔬</div>
       <div class="project-title">Prompting Científico con IA</div>
@@ -117,40 +130,56 @@ toc: false
   <div class="pub-card">
     <div class="pub-title">RegulonDB v12.0: A Comprehensive Resource of Transcriptional Regulation in <em>E. coli</em> K-12</div>
     <div class="pub-authors"><strong>Salgado H.</strong>, Gama-Castro S., Lara P., Mejía-Almonte C., <em>et al.</em></div>
-    <div class="pub-journal">Nucleic Acids Research, 2023 · Vol. 51 (D1): D146–D154</div>
+    <div class="pub-journal">Nucleic Acids Research, 2023 · Vol. 51 (D1): D146–D154 · primer autor</div>
     <div class="pub-links">
       <a href="https://doi.org/10.1093/nar/gkad1072" class="pub-badge doi" target="_blank" rel="noopener">DOI</a>
       <a href="https://pubmed.ncbi.nlm.nih.gov/37986210/" class="pub-badge pdf" target="_blank" rel="noopener">PubMed</a>
     </div>
   </div>
   <div class="pub-card">
-    <div class="pub-title">RegulonDB 11.0: Comprehensive High-Throughput Datasets on Transcriptional Regulation in <em>Escherichia coli</em> K-12</div>
-    <div class="pub-authors">Tierrafría V.H., Rioualen C., <strong>Salgado H.</strong>, Lara P., Gama-Castro S., <em>et al.</em></div>
-    <div class="pub-journal">Microbial Genomics, 2022 · 8(5): mgen000833</div>
+    <div class="pub-title">RegulonDB version 9.0: High-Level Integration of Gene Regulation, Coexpression, Motif Clustering and Beyond</div>
+    <div class="pub-authors">Gama-Castro S., <strong>Salgado H.</strong>, Santos-Zavaleta A., <em>et al.</em></div>
+    <div class="pub-journal">Nucleic Acids Research, 2016 · Vol. 44 (D1): D133–D143 · 354 citas</div>
     <div class="pub-links">
-      <a href="https://doi.org/10.1099/mgen.0.000833" class="pub-badge doi" target="_blank" rel="noopener">DOI</a>
+      <a href="https://doi.org/10.1093/nar/gkv1156" class="pub-badge doi" target="_blank" rel="noopener">DOI</a>
     </div>
   </div>
   <div class="pub-card">
-    <div class="pub-title">RegulonDB v10.5: Tackling Challenges to Unify Classic and High-Throughput Knowledge of Gene Regulation in <em>E. coli</em> K-12</div>
-    <div class="pub-authors">Santos-Zavaleta A., <strong>Salgado H.</strong>, Gama-Castro S., <em>et al.</em></div>
-    <div class="pub-journal">Nucleic Acids Research, 2019 · Vol. 47 (D1): D212–D220</div>
+    <div class="pub-title">RegulonDB (version 6.0): Gene Regulation Model of <em>E. coli</em> K-12 beyond Transcription, Active Annotated Promoters and Textpresso Navigation</div>
+    <div class="pub-authors">Gama-Castro S., Jiménez-Jacinto V., Peralta-Gil M., <em>et al.</em>, <strong>Salgado H.</strong></div>
+    <div class="pub-journal">Nucleic Acids Research, 2007 · Vol. 36 (D1): D120–D124 · 384 citas</div>
     <div class="pub-links">
-      <a href="https://doi.org/10.1093/nar/gky1077" class="pub-badge doi" target="_blank" rel="noopener">DOI</a>
+      <a href="https://doi.org/10.1093/nar/gkl1089" class="pub-badge doi" target="_blank" rel="noopener">DOI</a>
+    </div>
+  </div>
+  <div class="pub-card">
+    <div class="pub-title">RegulonDB version 7.0: Transcriptional Regulation of <em>E. coli</em> K-12 Integrated within Genetic Sensory Response Units (Gensor Units)</div>
+    <div class="pub-authors">Gama-Castro S., <strong>Salgado H.</strong>, Peralta-Gil M., <em>et al.</em></div>
+    <div class="pub-journal">Nucleic Acids Research, 2011 · Vol. 39 (D1): D98–D105 · 286 citas</div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1093/nar/gkq1237" class="pub-badge doi" target="_blank" rel="noopener">DOI</a>
     </div>
   </div>
   <div class="pub-card">
     <div class="pub-title">Operons in <em>Escherichia coli</em>: Genomic Analyses and Predictions</div>
     <div class="pub-authors"><strong>Salgado H.</strong>, Moreno-Hagelsieb G., Smith T.F., Collado-Vides J.</div>
-    <div class="pub-journal">PNAS, 2000 · Vol. 97(12): 6652–6657 · 270 citas</div>
+    <div class="pub-journal">PNAS, 2000 · Vol. 97 (12): 6652–6657 · primer autor · 270 citas</div>
     <div class="pub-links">
       <a href="https://doi.org/10.1073/pnas.97.12.6652" class="pub-badge doi" target="_blank" rel="noopener">DOI</a>
+    </div>
+  </div>
+  <div class="pub-card">
+    <div class="pub-title">RegulonDB v8.0: Omics Data Sets, Evolutionary Conservation, Regulatory Phrases, Cross-Validated Gold Standards and More</div>
+    <div class="pub-authors"><strong>Salgado H.</strong>, Peralta-Gil M., Gama-Castro S., <em>et al.</em></div>
+    <div class="pub-journal">Nucleic Acids Research, 2013 · Vol. 41 (D1): D203–D213 · primer autor</div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1093/nar/gks1144" class="pub-badge doi" target="_blank" rel="noopener">DOI</a>
     </div>
   </div>
 </div>
 ```
 
-Lista completa en [Google Scholar](https://scholar.google.com/citations?user=ezI9LUUAAAAJ&hl=es) o [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Salgado+H%5BAuthor%5D+CCG+UNAM).
+Selección por primer autor, número de citas e impacto en revistas de alto nivel (según CV UNAM 2025). Lista completa en [Google Scholar](https://scholar.google.com/citations?user=ezI9LUUAAAAJ&hl=es) o [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Salgado+H%5BAuthor%5D+CCG+UNAM).
 :::
 
 ---

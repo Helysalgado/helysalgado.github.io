@@ -361,6 +361,22 @@ a.about-card-link:hover {
   color: var(--color-secondary);
 }
 
+.project-card-static {
+  cursor: default;
+}
+
+.project-card-static:hover {
+  transform: none;
+}
+
+.docencia-intro {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--color-primary);
+  margin: -0.5rem 0 1.25rem;
+  max-width: 68ch;
+}
+
 /* ── Contacto ──────────────────────────────────────────────── */
 .contact-grid {
   display: grid;
