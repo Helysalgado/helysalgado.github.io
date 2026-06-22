@@ -147,6 +147,96 @@ body {
   border-color: var(--color-secondary);
 }
 
+/* ── Secciones colapsables ───────────────────────────────────── */
+.site-section {
+  border: none;
+  margin-bottom: 1.25rem;
+}
+
+.site-section summary.section-title {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  user-select: none;
+}
+
+.site-section summary.section-title::-webkit-details-marker,
+.site-section summary.section-title::marker {
+  display: none;
+}
+
+.site-section summary.section-title::after {
+  content: '▾';
+  font-size: 1rem;
+  color: var(--color-secondary);
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+  line-height: 1;
+}
+
+.site-section:not([open]) summary.section-title::after {
+  transform: rotate(-90deg);
+}
+
+.site-section-body {
+  padding-top: 0.25rem;
+}
+
+.profile-extended {
+  border: 1px solid #E5E9F0;
+  border-radius: var(--radius-md);
+  padding: 0.65rem 0.9rem;
+  margin-bottom: 1rem;
+  background: #FAFBFC;
+}
+
+.profile-extended summary {
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  list-style: none;
+}
+
+.profile-extended summary::-webkit-details-marker,
+.profile-extended summary::marker {
+  display: none;
+}
+
+.profile-extended-body {
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--color-muted);
+  margin-top: 0.75rem;
+}
+
+.profile-extended-body p {
+  margin-bottom: 0.75rem;
+}
+
+.about-highlights {
+  font-size: 0.8125rem;
+  color: var(--color-muted);
+  margin: 0.75rem 0 0;
+  padding-left: 1.1rem;
+  line-height: 1.5;
+}
+
+.pub-intro,
+.pub-footer {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin-bottom: 1rem;
+}
+
+.pub-footer {
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+
 /* ── Secciones ─────────────────────────────────────────────── */
 .section-title {
   font-size: 1.5rem;
@@ -423,6 +513,7 @@ a.about-card-link:hover {
   .tag          { background: #3B4252; color: #D8DEE9; border-color: #4C566A; }
   .pub-card     { background: #2E3440; border-color: #3B4252; }
   .about-card   { background: #2E3440; border-color: #3B4252; }
+  .profile-extended { background: #2E3440; border-color: #3B4252; }
   .project-card { background: #2E3440; border-color: #3B4252; }
   .project-card-featured {
     background: linear-gradient(135deg, #2E3440 0%, #3B5068 100%);
