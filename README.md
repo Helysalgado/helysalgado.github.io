@@ -1,6 +1,6 @@
 # Heladia Salgado — Sitio personal
 
-Sitio web personal de **Heladia Salgado**, Técnica Académica Titular C en el Centro de Ciencias Genómicas, UNAM.
+Sitio web personal de **Heladia Salgado**, Técnica Académica Titular C (licenciada en informática) en el Centro de Ciencias Genómicas, UNAM.
 
 **Sitio publicado:** [https://helysalgado.github.io](https://helysalgado.github.io)
 
