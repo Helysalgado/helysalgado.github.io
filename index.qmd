@@ -38,6 +38,7 @@ toc: false
   <div class="site-section-body about-section">
     <p>Soy técnica académica titular C en el <a href="https://www.ccg.unam.mx">Programa de Genómica Computacional del CCG-UNAM</a>, licenciada en Informática por el Instituto Tecnológico de Zacatepec. Llevo en la universidad desde 1994 y mi trabajo gira en torno a la bioinformática, la regulación génica bacteriana y el desarrollo de software científico.</p>
     <p>Coordino el desarrollo de software de <a href="http://regulondb.ccg.unam.mx/">RegulonDB</a> y, en los últimos años, integro inteligencia artificial en infraestructura científica y formación —incluyendo el proyecto PAPIIT de repositorio de prompts en el CCG y mis cursos en la LCG.</p>
+    <p>Desde 2023 me actualizo en IA aplicada al software y la educación: cursos en el CCG y la UNAM, el máster AI4Devs de <a href="https://www.lidr.co" target="_blank" rel="noopener">LIDR Academy</a> y, en curso, su programa <strong>AI Engineering</strong> (LLMs, RAG, embeddings y agentes). Soy instructora certificada de <a href="https://software-carpentry.org/" target="_blank" rel="noopener">The Carpentries</a>.</p>
     <div class="about-grid">
       <div class="about-card">
         <div class="about-icon">🧬</div>
@@ -46,7 +47,7 @@ toc: false
       </div>
       <div class="about-card">
         <div class="about-icon">🤖</div>
-        <div class="about-title">Repositorio de prompts e IA</div>
+        <div class="about-title">Repositorio de recursos de IA</div>
         <div class="about-desc">Desarrollo, documentación y uso responsable de prompts y herramientas con IA generativa para investigación y formación en el CCG.</div>
       </div>
       <a href="#docencia" class="about-card about-card-link">
@@ -55,6 +56,11 @@ toc: false
         <div class="about-desc">Introducción a la Bioinformática y Desarrollo de software con Python en la LCG-UNAM.</div>
       </a>
     </div>
+    <ul class="about-highlights">
+      <li>Técnica académica titular C desde 2017; en la UNAM desde 1994</li>
+      <li>Premio Sor Juana Inés de la Cruz, UNAM (2011) · Mérito universitario 25 años UNAM (2024)</li>
+      <li>Investigadora nacional SNI Nivel 1 (2005–2023) · PRIDE Nivel D</li>
+    </ul>
     <p class="about-more"><a href="https://www.ccg.unam.mx/heladia-salgado-osorio/" target="_blank" rel="noopener">Perfil institucional en el CCG</a> · <a href="https://scholar.google.com/citations?user=ezI9LUUAAAAJ&amp;hl=es" target="_blank" rel="noopener">Google Scholar</a></p>
   </div>
 </details>
@@ -166,7 +172,7 @@ toc: false
       </a>
       <div class="project-card project-card-static project-card-featured">
         <div class="project-icon">🗂️</div>
-        <div class="project-title">Repositorio de prompts e IA · CCG</div>
+        <div class="project-title">Repositorio de recursos de IA · CCG</div>
         <div class="project-desc">PAPIIT IF202226 (2026–2028): plataforma institucional para desarrollar, documentar y compartir prompts, GPTs y herramientas con IA generativa; repositorio en GitHub, interfaz web de consulta y formación en ingeniería de prompting. Responsable del proyecto.</div>
         <span class="project-status live">Vigente</span>
       </div>
