@@ -36,19 +36,8 @@ toc: false
 <details class="site-section" id="sobre-mi">
   <summary class="section-title">Sobre mí</summary>
   <div class="site-section-body about-section">
-    <p>Técnica Académica Titular C en el <a href="https://www.ccg.unam.mx">Programa de Genómica Computacional del CCG-UNAM</a>, donde labora desde 1994. Licenciada en Informática por el Instituto Tecnológico de Zacatepec; su producción en regulación génica bacteriana y bioinformática acumula más de 4,000 citas e índice h de 23.</p>
-    <p>Desde la etapa temprana de la bioinformática en México ha contribuido a la consolidación de <a href="http://regulondb.ccg.unam.mx/">RegulonDB</a> —incluyendo marcos como las Gensor Units— y coordina el desarrollo de software del equipo, articulando biología, computación, calidad en ingeniería de software (MoProSoft) e inteligencia artificial aplicada a la investigación.</p>
-    <details class="profile-extended">
-      <summary>Perfil completo en el CCG</summary>
-      <div class="profile-extended-body">
-        <p>Fue miembro del Sistema Nacional de Investigadores (SNI), Nivel 1, durante el periodo 2005–2023 y recibió el Premio Sor Juana Inés de la Cruz otorgado por la UNAM en 2011.</p>
-        <p>Desde la etapa temprana del desarrollo de la bioinformática en México, forma parte del grupo pionero que impulsó esta disciplina en la UNAM durante la década de 1990. Participó en proyectos fundacionales de anotación genómica, contribuyendo a la identificación de promotores, operones y sitios regulatorios durante la anotación del genoma de <em>Escherichia coli</em>, contribución por la cual aparece en los agradecimientos de la publicación histórica del genoma completo en <em>Science</em> (1997). Asimismo, participó en la anotación del genoma de <em>Rhizobium etli</em>, uno de los primeros genomas bacterianos secuenciados en México.</p>
-        <p>A lo largo de tres décadas ha contribuido de manera fundamental a la consolidación conceptual y tecnológica de RegulonDB, infraestructura científica de referencia internacional en regulación transcripcional bacteriana. Ha participado en la formalización de marcos conceptuales como las Gensor Units, en la clasificación estructurada de evidencia experimental y en la integración de datos clásicos y de alto rendimiento. Actualmente actúa como coordinadora del grupo de desarrollo de software de RegulonDB, articulando la interacción entre expertos en biología y en computación para asegurar la coherencia entre el modelo conceptual y su implementación tecnológica.</p>
-        <p>Su labor académica se ha caracterizado por vincular el análisis biológico experto con el diseño e implementación de soluciones computacionales robustas. Ha impulsado la adopción de estándares de calidad en el desarrollo de software científico, promoviendo buenas prácticas de ingeniería y principios de ciencia abierta. Bajo su participación, los procesos de desarrollo de software del Programa de Genómica Computacional fueron evaluados conforme al modelo MoProSoft.</p>
-        <p>En años recientes ha orientado su trabajo hacia la integración estratégica de inteligencia artificial en infraestructura científica y formación académica, incluyendo el proyecto PAPIIT de repositorio de prompts e IA en el CCG y el curso de prompting científico. Participa de manera continua en la docencia de bioinformática y programación en la LCG, ha dirigido tesis y proyectos vinculados con RegulonDB, y es instructora certificada por <a href="https://software-carpentry.org/">The Carpentries</a>.</p>
-        <p><a href="https://www.ccg.unam.mx/heladia-salgado-osorio/" target="_blank" rel="noopener">Ver perfil institucional en el CCG</a></p>
-      </div>
-    </details>
+    <p>Soy técnica académica titular C en el <a href="https://www.ccg.unam.mx">Programa de Genómica Computacional del CCG-UNAM</a>, licenciada en Informática por el Instituto Tecnológico de Zacatepec. Llevo en la universidad desde 1994 y mi trabajo gira en torno a la bioinformática, la regulación génica bacteriana y el desarrollo de software científico.</p>
+    <p>Coordino el desarrollo de software de <a href="http://regulondb.ccg.unam.mx/">RegulonDB</a> y, en los últimos años, integro inteligencia artificial en infraestructura científica y formación —incluyendo el proyecto PAPIIT de repositorio de prompts en el CCG y mis cursos en la LCG.</p>
     <div class="about-grid">
       <div class="about-card">
         <div class="about-icon">🧬</div>
@@ -66,11 +55,7 @@ toc: false
         <div class="about-desc">Introducción a la Bioinformática y Desarrollo de software con Python en la LCG-UNAM.</div>
       </a>
     </div>
-    <ul class="about-highlights">
-      <li>Técnica Académica Titular C desde 2017; en la UNAM desde 1994</li>
-      <li>Premio Sor Juana Inés de la Cruz, UNAM (2011) · Mérito Universitario 25 años UNAM (2024)</li>
-      <li>Investigadora Nacional SNI Nivel 1 (2005–2023) · PRIDE Nivel D</li>
-    </ul>
+    <p class="about-more"><a href="https://www.ccg.unam.mx/heladia-salgado-osorio/" target="_blank" rel="noopener">Perfil institucional en el CCG</a> · <a href="https://scholar.google.com/citations?user=ezI9LUUAAAAJ&amp;hl=es" target="_blank" rel="noopener">Google Scholar</a></p>
   </div>
 </details>
 
