@@ -52,22 +52,45 @@ Centro de Ciencias Genómicas, UNAM · Cuernavaca, México · en la UNAM desde 1
      SOBRE MÍ
      ══════════════════════════════════════════════════ -->
 
+::: {.about-section}
+
 ## Sobre mí {.section-title}
 
-Soy **técnica académica titular C** de tiempo completo en el [Centro de Ciencias Genómicas de la UNAM](https://www.ccg.unam.mx), **licenciada en informática**. Llevo más de tres décadas en la universidad (desde 1994) y mi trayectoria se ha centrado en el modelado estructural de la regulación transcripcional bacteriana: análisis genómico, predicción computacional de sitios regulatorios y formalización metodológica de la evidencia experimental.
+Técnica académica titular C en el [Centro de Ciencias Genómicas de la UNAM](https://www.ccg.unam.mx), licenciada en informática y en la universidad desde 1994. Modelo la regulación transcripcional bacteriana y coordino el desarrollo de software de [RegulonDB](http://regulondb.ccg.unam.mx/), articulando biología, computación e inteligencia artificial.
 
-Coordino el **desarrollo de software** del equipo de [RegulonDB](http://regulondb.ccg.unam.mx/), articulando la interacción entre especialistas en biología y en computación para que el modelo conceptual y su implementación tecnológica sean coherentes. He contribuido a marcos como las **Gensor Units** y a la evolución de RegulonDB como infraestructura científica de referencia internacional en regulación génica bacteriana.
+::: {.about-grid}
 
-En años recientes amplío esta línea hacia herramientas basadas en **inteligencia artificial** para el despliegue, exploración y reutilización del conocimiento curado. También imparto docencia en bioinformática, programación y estadística aplicada —en la Licenciatura en Ciencias Genómicas y en posgrado— y participo en la formación de estudiantes en desarrollo de software científico.
+::: {.about-card}
+::: {.about-icon}🧬:::
+::: {.about-title}RegulonDB:::
+::: {.about-desc}
+Coordinación del desarrollo de software del equipo e integración entre el modelo biológico y su implementación tecnológica.
+:::
+:::
 
-> Mis líneas de trabajo actuales incluyen el diseño de prompts científicos, la integración de LLMs en pipelines bioinformáticos, asistentes conversacionales para investigación y la enseñanza de programación asistida por IA.
+::: {.about-card}
+::: {.about-icon}🤖:::
+::: {.about-title}IA y conocimiento curado:::
+::: {.about-desc}
+Asistentes conversacionales, LLMs en pipelines bioinformáticos y despliegue estructurado del conocimiento científico.
+:::
+:::
+
+::: {.about-card}
+::: {.about-icon}📚:::
+::: {.about-title}Docencia:::
+::: {.about-desc}
+Bioinformática, Python y estadística en la Licenciatura en Ciencias Genómicas, posgrado y formación en software científico.
+:::
+:::
+
+:::
 
 ::: {.callout-note collapse="true"}
 ## Trayectoria y formación
 
 - **Licenciatura en Informática**
 - Técnica Académica de tiempo completo en la UNAM desde 1998; Titular C desde 2017
-- Coordinación técnica del desarrollo de software en RegulonDB
 - Instructora certificada en [Software Carpentry](https://software-carpentry.org/)
 - Más de 4,000 citas a publicaciones (h-index 23, [Google Scholar](https://scholar.google.com/citations?user=ezI9LUUAAAAJ&hl=es))
 :::
@@ -79,6 +102,8 @@ En años recientes amplío esta línea hacia herramientas basadas en **inteligen
 - Premio Sor Juana Inés de la Cruz, UNAM (2011)
 - Programa PRIDE, Nivel D, UNAM (desde 2002)
 - Investigadora Nacional Nivel 1, Sistema Nacional de Investigadores (2005–2023)
+:::
+
 :::
 
 ---
