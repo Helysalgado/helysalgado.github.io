@@ -46,14 +46,14 @@ toc: false
     </div>
     <div class="about-card">
       <div class="about-icon">🤖</div>
-      <div class="about-title">IA y conocimiento curado</div>
-      <div class="about-desc">Asistentes conversacionales, LLMs en pipelines bioinformáticos y despliegue estructurado del conocimiento científico.</div>
+      <div class="about-title">Repositorio de prompts e IA</div>
+      <div class="about-desc">Desarrollo, documentación y uso responsable de prompts y herramientas con IA generativa para investigación y formación en el CCG.</div>
     </div>
-    <div class="about-card">
+    <a href="#docencia" class="about-card about-card-link">
       <div class="about-icon">📚</div>
       <div class="about-title">Docencia</div>
-      <div class="about-desc">Bioinformática, Python y estadística en la Licenciatura en Ciencias Genómicas, posgrado y formación en software científico.</div>
-    </div>
+      <div class="about-desc">Bioinformática, Python, ingeniería de prompting y estadística en la LCG, posgrado y formación en software científico.</div>
+    </a>
   </div>
 </section>
 ```
@@ -88,6 +88,12 @@ toc: false
       <div class="project-title">Prompting Científico con IA</div>
       <div class="project-desc">Curso sobre epistemología del prompting, arquitectura de LLMs y diseño de prompts para investigación científica. Incluye protocolo MalT y rúbricas de evaluación.</div>
       <span class="project-status live">Sitio activo</span>
+    </a>
+    <a href="https://github.com/lcg-cursos/prompts-ia-repo" class="project-card" target="_blank" rel="noopener">
+      <div class="project-icon">📦</div>
+      <div class="project-title">Repositorio de prompts · LCG</div>
+      <div class="project-desc">Repositorio abierto de prompts y GPTs de la LCG: documentación, alcance y mejoras por tarea científica. Antecedente piloto del proyecto PAPIIT en el CCG.</div>
+      <span class="project-status live">GitHub</span>
     </a>
     <a href="#" class="project-card">
       <div class="project-icon">🛠️</div>
@@ -160,10 +166,10 @@ Lista completa en [Google Scholar](https://scholar.google.com/citations?user=ezI
       <div class="project-desc">Base de datos de referencia mundial para la regulación transcripcional en <em>E. coli</em> K-12. Coordino el desarrollo de software del equipo y la integración entre el modelo biológico y su implementación tecnológica.</div>
       <span class="project-status live">Activo</span>
     </a>
-    <a href="#" class="project-card">
-      <div class="project-icon">🤖</div>
-      <div class="project-title">Asistentes conversacionales con IA</div>
-      <div class="project-desc">Proyecto PAPIIT IF202226 (2026–2027): plataforma de asistentes basados en IA generativa para el despliegue estructurado de conocimiento científico en investigación y formación académica. Responsable del proyecto.</div>
+    <a href="https://github.com/lcg-cursos/prompts-ia-repo" class="project-card project-card-featured" target="_blank" rel="noopener">
+      <div class="project-icon">🗂️</div>
+      <div class="project-title">Repositorio de prompts e IA · CCG</div>
+      <div class="project-desc">PAPIIT IF202226 (2026–2028): plataforma institucional para desarrollar, documentar y compartir prompts, GPTs y herramientas con IA generativa; repositorio en GitHub, interfaz web de consulta y formación en ingeniería de prompting. Responsable del proyecto.</div>
       <span class="project-status live">Vigente</span>
     </a>
   </div>
